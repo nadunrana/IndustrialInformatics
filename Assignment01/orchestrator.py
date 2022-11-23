@@ -184,7 +184,7 @@ class Orchestrator:
         def subscription():
             event = request.json
             self.eventHandler(event)
-            return "hello"
+            return "Orchestrator working"
 
 app = Flask(__name__)
 def main():
